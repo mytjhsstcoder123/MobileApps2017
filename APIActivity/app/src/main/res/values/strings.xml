@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">APIActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_start">StartActivity</string>
+
+<string name="action_settings">Settings</string>
+<string name="hello">Hello, </string>
+<string name="login_instructions">Login to twiter</string>
+<string name="share_instructions">Enter share message</string>
+<string name="btn_login">Login to Twitter</string>
+<string name="btn_share">Share</string>
+
+<!-- Twitter Configurations -->
+<string name="twitter_callback">https://apps.twitter.com/app/new</string>
+<string name="twitter_consumer_key">YNgWXd4fcr2NX8ui5zKsGJGib</string>
+<string name="twitter_consumer_secret">	gQGH5AL33KmV66I688hYiOSlHVSCetsvceZpXHyCWwFRe8H2pt</string>
+<string name="twitter_oauth_verifier">oauth_verifier</string>
+<!-- End Configurations -->
+</resources>

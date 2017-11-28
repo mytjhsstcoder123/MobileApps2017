@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a2019myohanne.apiactivity.StartActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="World Tweets Explorer"
+        android:textSize="30dp"
+        android:id="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter a country"
+        android:textSize="30dp"
+        android:layout_marginTop="66dp"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Map Explorer"
+        android:textSize="30dp"
+        android:id="@+id/editText"
+        android:layout_marginTop="81dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignEnd="@+id/textView4" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go see tweets from that country"
+        android:layout_below="@+id/editText"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_marginTop="56dp" />
+</RelativeLayout>
